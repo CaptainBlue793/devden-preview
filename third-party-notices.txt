@@ -1,0 +1,13 @@
+Portfolio icon attribution
+
+Simple Icons contributors: https://github.com/simple-icons/simple-icons
+SVG icons distributed under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Font Awesome Free by Fonticons, Inc.: https://fontawesome.com
+LinkedIn, Java, and AWS SVG icons used under CC BY 4.0:
+https://creativecommons.org/licenses/by/4.0/
+https://fontawesome.com/license/free
+Icon paths are unmodified. Display sizes and monochrome colors are styled by CSS.
+
+Brand names and marks belong to their respective owners.

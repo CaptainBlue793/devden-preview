@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0c0c0c" />
+    <meta name="color-scheme" content="dark light" />
+    <script>
+      // Resolve the initial theme before rendering to avoid a flash on reload.
+      (() => {
+        const theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="theme-color"]').content = theme === 'light' ? '#ffffff' : '#0c0c0c';
+      })();
+    </script>
+    <meta name="description" content="Palak Deb Patra — software engineer, AI/ML builder, and computer vision researcher. Explore experience, projects, and publications in an interactive PowerShell portfolio." />
+    <meta property="og:title" content="Palak Deb Patra | Software Engineer · AI / ML" />
+    <meta property="og:description" content="Engineering, applied AI, and research. Explore Palak's interactive PowerShell portfolio." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/devden-preview/favicon.svg" />
+    <title>Palak Deb Patra | Software Engineer · AI / ML</title>
+    <script type="module" crossorigin src="/devden-preview/assets/index-CxyspNC4.js"></script>
+    <link rel="stylesheet" crossorigin href="/devden-preview/assets/index-Cj7DsQH1.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>This portfolio uses JavaScript for its interactive terminal. Explore my projects at <a href="https://github.com/CaptainBlue793">GitHub</a> or contact <a href="mailto:palakdevpatra@gmail.com">palakdevpatra@gmail.com</a>.</noscript>
+  </body>
+</html>
