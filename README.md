@@ -4,4 +4,4 @@
 
 Published static build only. Application source is maintained separately.
 
-Built from source revision `3549147`.
+Updated October 13, 2026 with first-person portfolio copy, consistent technical-term capitalization, and a resume viewer that opens fitted to phone screens.
